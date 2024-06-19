@@ -1,30 +1,41 @@
 import React from "react";
 import "../App.css";
-import pepsmoke from "../assets/pep-smoke-slider.svg";
-import weedslider from "../assets/weed-slider.svg";
+import sliderimg from "../assets/images/logo-stars.svg";
 
 const Slider = () => {
   return (
-    <div className="slider-container overflow-hidden bg-white">
-      <div className="slider-content flex items-center">
-        {[...Array(4)].map((_, index) => (
-          <div
-            key={index}
-            className="logo-icon-container flex items-center justify-center"
-          >
-            <img
-              src={pepsmoke}
-              alt="Logo"
-              className="logo h-[20vh] w-[20vw] mx-2 "
-            />
-            <img
-              src={weedslider}
-              alt="Weed Icon"
-              className="weed-icon h-[20vh] w-[20vw] mx-2"
-            />
-          </div>
-        ))}
-      </div>
+    <div className="py-5 section-infinite">
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
+      <img src={sliderimg} alt="Logo" className="slider-img" />
     </div>
   );
 };

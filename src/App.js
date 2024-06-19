@@ -1,15 +1,23 @@
 import React from "react";
+import Footer from "../src/components/Footer.jsx";
+import Header from "../src/components/Header.jsx";
+import Hero from "../src/components/Hero.jsx";
+import Lambownomics from "../src/components/Lambownomics.jsx";
+import Roadmap from "../src/components/Roadmap.jsx";
+import Slider from "../src/components/Slider.jsx";
 import "./App.css";
-import Header from "./components/Header.jsx";
-import Hero from "./components/Hero.jsx";
-import Slider from "./components/Slider.jsx";
 
 function App() {
   return (
-    <div className="bg-lime-300">
-      <Header />
-      <Hero />
-      <Slider />
+    <div className="big-container">
+      <div className="container">
+        <Header />
+        <Hero />
+        <Slider />
+        <Roadmap />
+        <Lambownomics />
+        <Footer />
+      </div>
     </div>
   );
 }

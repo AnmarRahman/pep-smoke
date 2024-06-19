@@ -1,15 +1,63 @@
 import React from "react";
-import pepsmoke from "../assets/pep-smoke.svg";
+import "../assets/css/framework.css";
+import "../assets/css/normalize.css";
+import "../assets/css/style.css";
+import cloud1 from "../assets/images/cloud-1.svg";
+import cloud3 from "../assets/images/cloud-3.svg";
+import logo from "../assets/images/logo-img.svg";
+import socialTelegram from "../assets/images/social-telegram-icon.svg";
+import socialX from "../assets/images/social-x-icon.svg";
 
-const Header = () => {
+function Header() {
   return (
-    <header className="flex flex-col items-center justify-center p-4 bg-green-200 bg-gradient-to-r from-green-200 to-green-600">
-      <img src={pepsmoke} alt="logo" className="" />
-      <button className="bg-[#427B24] text-white border-black border-2 rounded-full px-6 py-2 text-lg hover:bg-opacity-80 transition duration-300 ease-in-out">
-        Buy
-      </button>
-    </header>
+    <div className="header">
+      <div className="content header-c">
+        <div className="header-wr">
+          <div className="social-wr">
+            <a
+              href="https://twitter.com/basedlambow"
+              className="social-link w-inline-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={socialX} alt="Twitter" />
+            </a>
+            <a
+              href="https://t.me/lambowxyz"
+              className="social-link w-inline-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={socialTelegram} alt="Telegram" />
+            </a>
+          </div>
+          <a href="https://lambow.xyz/" className="w-inline-block">
+            <img src={logo} alt="Lambow Logo" />
+          </a>
+          <a
+            href="https://dexscreener.com/base/0xca12d459d28eb7707614ec09cc62cce4039fc1a4"
+            className="cta w-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buy
+          </a>
+          <img
+            src={cloud1}
+            data-w-id="46bc3d18-cf6f-ea20-efa6-4ceed2912f50"
+            alt=""
+            className="cloud-1"
+          />
+        </div>
+      </div>
+      <img
+        src={cloud3}
+        alt=""
+        className="cloud-3"
+        data-w-id="baf3ab0e-d5c1-63fe-39a2-b8cdbde6dd6f"
+      />
+    </div>
   );
-};
+}
 
 export default Header;
