@@ -1,5 +1,4 @@
-/* SLIDER COMPONENT */
-
+/* Add this to App.css */
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -12,19 +11,16 @@
 .slider-container {
   width: 100%;
   white-space: nowrap;
-  transform: rotate(2deg);
-  position: absolute;
-  bottom: 2vh; /* Adjust as needed to move it up */
+  transform: rotate(2deg); /* Adjust the rotation angle as needed */
 }
 
 .slider-content {
   display: flex;
-  animation: scroll 20s linear infinite;
-  width: 200%;
+  /* animation: scroll 20s linear infinite; */
+  width: 200%; /* Ensure the width is enough to cover twice the visible area */
 }
 
 .logo-icon-container {
   display: inline-flex;
+  min-width: min-content; /* Ensure flex items do not shrink below content size */
 }
-
-/* SLIDER COMPONENT */

@@ -5,15 +5,23 @@ import weedslider from "../assets/weed-slider.svg";
 
 const Slider = () => {
   return (
-    <div className="slider-container overflow-hidden bg-white py-[1vh]">
+    <div className="slider-container overflow-hidden bg-white">
       <div className="slider-content flex items-center">
-        {[...Array(8)].map((_, index) => (
+        {[...Array(4)].map((_, index) => (
           <div
             key={index}
             className="logo-icon-container flex items-center justify-center"
           >
-            <img src={pepsmoke} alt="Logo" className="h-16" />
-            <img src={weedslider} alt="Weed Icon" className="h-16 mx-[2vw]" />
+            <img
+              src={pepsmoke}
+              alt="Logo"
+              className="logo h-[20vh] w-[20vw] mx-2 "
+            />
+            <img
+              src={weedslider}
+              alt="Weed Icon"
+              className="weed-icon h-[20vh] w-[20vw] mx-2"
+            />
           </div>
         ))}
       </div>
