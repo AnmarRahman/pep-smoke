@@ -8,9 +8,9 @@ function Hero() {
     <div className="hero">
       <div className="content hero-c">
         <h1>
-          HEY, I'M LAMBOW
+          SHOOTING FOR THE STARS
           <br />
-          THE UNOFFICIAL MASCOT OF BASE
+          AIMING FOR THE MOON
         </h1>
       </div>
       <div className="hero-btm">
@@ -18,7 +18,7 @@ function Hero() {
           <img src={splash1} alt="" />
         </div>
         <div className="hero-animation">
-          <img src={pepsmoke} alt="" />
+          <img src={pepsmoke} className="hero-pep-smoke" alt="" />
         </div>
         <div className="splash-two">
           <img src={splash2} alt="" />

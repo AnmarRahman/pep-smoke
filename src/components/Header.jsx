@@ -4,7 +4,6 @@ import "../assets/css/normalize.css";
 import "../assets/css/style.css";
 import cloud1 from "../assets/images/cloud-1.svg";
 import cloud3 from "../assets/images/cloud-3.svg";
-import logo from "../assets/images/logo-img.svg";
 import socialTelegram from "../assets/images/social-telegram-icon.svg";
 import socialX from "../assets/images/social-x-icon.svg";
 
@@ -31,9 +30,10 @@ function Header() {
               <img src={socialTelegram} alt="Telegram" />
             </a>
           </div>
-          <a href="https://lambow.xyz/" className="w-inline-block">
+          {/* <a href="https://lambow.xyz/" className="w-inline-block">
             <img src={logo} alt="Lambow Logo" />
-          </a>
+          </a> */}
+          <div className="header-logo">PEP SMOKE</div>
           <a
             href="https://dexscreener.com/base/0xca12d459d28eb7707614ec09cc62cce4039fc1a4"
             className="cta w-button"

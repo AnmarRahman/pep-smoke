@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import sliderimg from "../assets/images/logo-stars.svg";
+import sliderimg from "../assets/images/slider-img.svg";
 
 const Slider = () => {
   return (
