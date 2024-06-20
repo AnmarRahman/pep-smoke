@@ -12,7 +12,7 @@ function Header() {
         <div className="header-wr">
           <div className="social-wr">
             <a
-              href="#"
+              href="https://x.com/ThePepSmoke"
               className="social-link w-inline-block"
               target="_blank"
               rel="noopener noreferrer"
@@ -20,7 +20,7 @@ function Header() {
               <img src={socialX} alt="Twitter" />
             </a>
             <a
-              href="#"
+              href="https://t.me/PEPSMOKE420"
               className="social-link w-inline-block"
               target="_blank"
               rel="noopener noreferrer"
@@ -31,7 +31,9 @@ function Header() {
           {/* <a href="https://lambow.xyz/" className="w-inline-block">
             <img src={logo} alt="Lambow Logo" />
           </a> */}
-          <div className="header-logo">PEP SMOKE</div>
+          <div className="header-logo">
+            PEP <span className="dollar-sign">$</span>MOKE
+          </div>
           <a
             href="#"
             className="cta w-button"

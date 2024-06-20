@@ -1,7 +1,7 @@
 import React from "react";
-import roadmapFlag from "../assets/images/roadmap-flag.svg";
-import roadmapPlanets from "../assets/images/roadmap-planets.svg";
-import roadmapRocket1 from "../assets/images/roadmap-rocket1.svg";
+import pepSmokeCrouch from "../assets/images/pep-smoke-crouch.svg";
+import pepSmokeRocket from "../assets/images/pep-smoke-riding-rocket.svg";
+import pepSmokeSitting from "../assets/images/pep-smoke-sitting.svg";
 
 function Roadmap() {
   return (
@@ -20,7 +20,7 @@ function Roadmap() {
             </div>
             <div className="roadmap-row">
               <div className="roadmap-left">
-                <img src={roadmapRocket1} alt="Phase 1" />
+                <img src={pepSmokeRocket} alt="Phase 1" />
               </div>
               <div className="roadmap-right">
                 <h3>Phase 01</h3>
@@ -36,7 +36,11 @@ function Roadmap() {
             </div>
             <div className="roadmap-row">
               <div className="roadmap-left">
-                <img src={roadmapPlanets} alt="Phase 2" />
+                <img
+                  className="pep-smoke-crouch"
+                  src={pepSmokeCrouch}
+                  alt="Phase 2"
+                />
               </div>
               <div className="roadmap-right">
                 <h3>Phase 02</h3>
@@ -54,7 +58,7 @@ function Roadmap() {
             </div>
             <div className="roadmap-row">
               <div className="roadmap-left">
-                <img src={roadmapFlag} alt="Phase 3" />
+                <img src={pepSmokeSitting} alt="Phase 3" />
               </div>
               <div className="roadmap-right">
                 <h3>Phase 03</h3>
