@@ -1146,7 +1146,11 @@ ul li::before {
   }
 
   .footer {
-    background-color: white !important;
+    background-color: var(--colors--dark-green) !important;
+  }
+
+  .email-link {
+    color: white !important;
   }
 
   .footer-right .social-wr {
