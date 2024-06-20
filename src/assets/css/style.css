@@ -202,7 +202,7 @@ ul li::before {
 }
 
 .social-link {
-  border: 2px solid var(--colors--purple-dark);
+  border: 2px solid var(--colors--dark-green);
   background-color: var(--colors--white);
   border-radius: 50%;
   justify-content: center;
@@ -218,10 +218,10 @@ ul li::before {
 }
 
 .cta {
-  border: 2px solid var(--colors--purple-dark);
+  border: 2px solid var(--colors--dark-green);
   background-color: var(--colors--white);
   font-family: var(--font--brother);
-  color: var(--colors--purple-dark);
+  color: var(--colors--dark-green);
   letter-spacing: 1px;
   border-radius: 40px;
   padding: 20px 60px 16px;
@@ -232,7 +232,7 @@ ul li::before {
 }
 
 .cta:hover {
-  background: var(--colors--purple-dark);
+  background: var(--colors--dark-green);
   color: var(--colors--white);
 }
 
@@ -252,7 +252,7 @@ ul li::before {
   align-items: center;
   display: flex;
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .cloud-1 {
@@ -282,12 +282,14 @@ ul li::before {
 .splash-one {
   width: 37%;
   margin-left: 20px;
+  visibility: hidden;
 }
 
 .splash-two {
   width: 50%;
   /* margin-bottom: -10%; */
   margin-right: -5%;
+  visibility: hidden;
 }
 
 .hero-animation {

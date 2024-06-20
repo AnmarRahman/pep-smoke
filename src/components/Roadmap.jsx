@@ -63,7 +63,7 @@ function Roadmap() {
                     <li>CMC</li>
                     <li>CG</li>
                     <li>CEX Listings</li>
-                    <li>LAMBOW NFTs</li>
+                    <li>PEPSMOKE NFTs</li>
                   </ul>
                 </div>
               </div>

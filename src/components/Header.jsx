@@ -2,8 +2,6 @@ import React from "react";
 import "../assets/css/framework.css";
 import "../assets/css/normalize.css";
 import "../assets/css/style.css";
-import cloud1 from "../assets/images/cloud-1.svg";
-import cloud3 from "../assets/images/cloud-3.svg";
 import socialTelegram from "../assets/images/social-telegram-icon.svg";
 import socialX from "../assets/images/social-x-icon.svg";
 
@@ -42,20 +40,20 @@ function Header() {
           >
             Buy
           </a>
-          <img
+          {/* <img
             src={cloud1}
             data-w-id="46bc3d18-cf6f-ea20-efa6-4ceed2912f50"
             alt=""
             className="cloud-1"
-          />
+          /> */}
         </div>
       </div>
-      <img
+      {/* <img
         src={cloud3}
         alt=""
         className="cloud-3"
         data-w-id="baf3ab0e-d5c1-63fe-39a2-b8cdbde6dd6f"
-      />
+      /> */}
     </div>
   );
 }
