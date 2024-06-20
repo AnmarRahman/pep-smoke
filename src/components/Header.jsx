@@ -12,7 +12,7 @@ function Header() {
         <div className="header-wr">
           <div className="social-wr">
             <a
-              href="https://twitter.com/basedlambow"
+              href="#"
               className="social-link w-inline-block"
               target="_blank"
               rel="noopener noreferrer"
@@ -20,7 +20,7 @@ function Header() {
               <img src={socialX} alt="Twitter" />
             </a>
             <a
-              href="https://t.me/lambowxyz"
+              href="#"
               className="social-link w-inline-block"
               target="_blank"
               rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Header() {
           </a> */}
           <div className="header-logo">PEP SMOKE</div>
           <a
-            href="https://dexscreener.com/base/0xca12d459d28eb7707614ec09cc62cce4039fc1a4"
+            href="#"
             className="cta w-button"
             target="_blank"
             rel="noopener noreferrer"
