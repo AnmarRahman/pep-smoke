@@ -33,7 +33,7 @@ function Header() {
           </a> */}
           <div className="header-logo">PEP SMOKE</div>
           <a
-            href="#"
+            href="https://ape.store/base/0x9db0db6d0a386beb02f9bf5a583b94111d731b12"
             className="cta w-button"
             target="_blank"
             rel="noopener noreferrer"
