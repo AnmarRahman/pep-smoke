@@ -41,13 +41,13 @@ function Footer() {
           </div>
         </div>
         <div className="footer-links">
-          {/* <a
-            href="https://www.dextools.io/app/en/base/pair-explorer/0xca12d459d28eb7707614ec09cc62cce4039fc1a4"
+          <a
+            href="https://ape.store/base/0x9db0db6d0a386beb02f9bf5a583b94111d731b12"
             target="_blank"
             rel="noopener noreferrer"
           >
-            DEXTools
-          </a> */}
+            ApeStore
+          </a>
           {/* <a
             href="https://dexscreener.com/base/0xca12d459d28eb7707614ec09cc62cce4039fc1a4"
             target="_blank"

@@ -1067,6 +1067,10 @@ ul li::before {
     margin-bottom: 40px;
   }
 
+  .footer-links p {
+    font-size: 14px;
+  }
+
   .header-wr {
     flex-flow: column;
   }
