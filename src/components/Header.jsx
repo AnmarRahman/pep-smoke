@@ -31,9 +31,7 @@ function Header() {
           {/* <a href="https://lambow.xyz/" className="w-inline-block">
             <img src={logo} alt="Lambow Logo" />
           </a> */}
-          <div className="header-logo">
-            PEP <span className="dollar-sign">$</span>MOKE
-          </div>
+          <div className="header-logo">PEP SMOKE</div>
           <a
             href="#"
             className="cta w-button"
