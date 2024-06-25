@@ -251,7 +251,7 @@ ul li::before {
 .hero {
   z-index: 49;
   position: relative;
-  background-image: url(../images/newyork-skyline2.svg); /* Add this line */
+  background-image: url(../images/newyork-skyline2.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
