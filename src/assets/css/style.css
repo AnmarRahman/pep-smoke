@@ -126,13 +126,16 @@ ul li::before {
   position: relative;
 }
 
+.phase-subtitle {
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.roadmap-box .phase-subtitle:not(:first-of-type) {
+  margin-top: 15px;
+}
+
 .container {
-  /* background-image: linear-gradient(
-    140deg,
-    var(--colors--blue-light),
-    var(--colors--blue-light-2) 33%,
-    var(--colors--blue) 94%
-  ); */
   background: #0a0e28;
   position: relative;
   overflow: hidden;
@@ -323,8 +326,8 @@ ul li::before {
   /* background: black !important; */
 }
 
-.section-infinite-1,
-.section-infinite-2 {
+.slider-direction-right,
+.slider-direction-left {
   background: var(--colors--white);
   width: 120%;
   z-index: 50;
@@ -334,26 +337,26 @@ ul li::before {
   grid-gap: 40px;
 }
 
-.section-infinite-1 {
+.slider-direction-right {
   transform: rotate(0deg);
   position: absolute;
 }
 
-.section-infinite-2 {
+.slider-direction-left {
   transform: rotate(0deg);
   position: block;
 }
 
-.section-infinite-1 img {
-  animation: section-infinite-1 15s linear infinite;
+.slider-direction-right img {
+  animation: slide-right 15s linear infinite;
 }
-.section-infinite-2 img {
-  animation: section-infinite-2 15s linear infinite;
+.slider-direction-left img {
+  animation: slide-left 15s linear infinite;
 }
 
 /*----- Start Animation -----*/
 
-@keyframes section-infinite-1 {
+@keyframes slide-left {
   from {
     transform: translateX(0%);
   }
@@ -363,7 +366,7 @@ ul li::before {
   }
 }
 
-@keyframes section-infinite-2 {
+@keyframes slide-right {
   from {
     transform: translateX(-200%);
   }
@@ -659,7 +662,7 @@ ul li::before {
   grid-template-columns: 1fr 0.8fr;
   grid-auto-columns: 1fr;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
   justify-items: stretch;
   display: grid;
 }
@@ -754,6 +757,7 @@ ul li::before {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .base-wr {
@@ -1069,6 +1073,18 @@ ul li::before {
 
   .footer-links p {
     font-size: 14px;
+  }
+
+  .token-left {
+    order: 2 !important;
+  }
+
+  .token-wr {
+    padding-bottom: 32px !important;
+  }
+
+  .piechart-heading {
+    display: none !important;
   }
 
   .header-wr {

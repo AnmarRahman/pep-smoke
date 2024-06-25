@@ -25,11 +25,21 @@ function Roadmap() {
               <div className="roadmap-right">
                 <h3>Phase 01</h3>
                 <div className="roadmap-box">
+                  <div className="phase-subtitle">Launch Ape.Store</div>
                   <ul>
                     <li>Listing on ApeStore</li>
                     <li>Website + Socials</li>
                     <li>Influencers + KOLs</li>
                     <li>Promotion + X Spaces</li>
+                  </ul>
+                  <div className="phase-subtitle">
+                    Launch Uniswap at 69k Market Cap
+                  </div>
+                  <ul>
+                    <li>Update Dex</li>
+                    <li>Trending</li>
+                    <li>Dex Ads</li>
+                    <li>KOL</li>
                   </ul>
                 </div>
               </div>
@@ -46,12 +56,11 @@ function Roadmap() {
                 <h3>Phase 02</h3>
                 <div className="roadmap-box">
                   <ul>
-                    <li>Listing on Uniswap</li>
-                    <li>Community Activities</li>
-                    <li>Partnerships</li>
-                    <li>Competitions</li>
-                    <li>Giveaways</li>
-                    <li>Advertising Campaigns</li>
+                    <li>DEXTOOLS</li>
+                    <li>Moontok</li>
+                    <li>Community Contests</li>
+                    <li>Revamp website</li>
+                    <li>Dexview</li>
                   </ul>
                 </div>
               </div>
@@ -64,10 +73,11 @@ function Roadmap() {
                 <h3>Phase 03</h3>
                 <div className="roadmap-box">
                   <ul>
-                    <li>CMC</li>
-                    <li>CG</li>
-                    <li>CEX Listings</li>
-                    <li>PEPSMOKE NFTs</li>
+                    <li>Coinmarket Cap</li>
+                    <li>Coin Gecko</li>
+                    <li>Partnerships</li>
+                    <li>5M MCAP first CEX</li>
+                    <li>10M more CEX listings</li>
                   </ul>
                 </div>
               </div>
