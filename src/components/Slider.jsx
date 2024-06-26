@@ -5,7 +5,6 @@ import sliderimg from "../assets/images/slider-img-2.svg";
 const Slider = ({ direction }) => {
   const sliderDirection =
     direction === "left" ? "slider-direction-left" : "slider-direction-right";
-  console.log(sliderDirection);
 
   return (
     <div className={sliderDirection}>
