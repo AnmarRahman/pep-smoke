@@ -9,11 +9,11 @@ function Footer() {
       <div className="content footer-c">
         <div className="footer-top">
           <div className="footer-left">
-            <a href="mailto:[pepsmoke@gmail.com]" className="email-link">
+            <a href="mailto:[support@pepsmoke.com]" className="email-link">
               <span className="social-link">
                 <img src={socialHand} alt="Hand" />
               </span>
-              <span>[PEPSMOKE@GMAIL.COM]</span>
+              <span>[SUPPORT@PEPSMOKE.COM]</span>
             </a>
           </div>
           <div className="footer-right">
