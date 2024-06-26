@@ -51,12 +51,12 @@ function AboutUs() {
                   </h4>
                 </div>
                 <div className="token-inner">
-                  We are a small but dedicated team of three, united by our
-                  passion for music and our commitment to building a safe and
-                  inclusive community. Having faced numerous challenges and
-                  setbacks ourselves, we understand the importance of trust and
-                  security. Our mission is to create a space where everyone
-                  feels safe to express themselves and grow together.
+                  We are a small but dedicated team, united by our passion for
+                  music and our commitment to building a safe and inclusive
+                  community. Having faced numerous challenges and setbacks
+                  ourselves, we understand the importance of trust and security.
+                  Our mission is to create a space where everyone feels safe to
+                  express themselves and grow together.
                 </div>
               </div>
             </div>
