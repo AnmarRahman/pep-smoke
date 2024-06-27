@@ -12,9 +12,11 @@ function App() {
   return (
     <div className="big-container">
       <div className="container">
-        <Header />
-        <Hero />
-        <Slider direction="left" />
+        <div className="header-hero">
+          <Header />
+          <Hero />
+          <Slider direction="left" />
+        </div>
         <AboutUs />
         <Slider direction="right" />
         <Roadmap />
