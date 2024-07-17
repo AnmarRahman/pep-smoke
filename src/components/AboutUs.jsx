@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import "../assets/css/style.css";
 import greenCircle from "../assets/images/circle-green.svg";
 import collage1 from "../assets/images/collage-1.svg";
 import collage2 from "../assets/images/collage-2.png";
@@ -6,21 +7,53 @@ import collage3 from "../assets/images/collage-3.png";
 import collage4 from "../assets/images/collage-4.png";
 
 function AboutUs() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          } else {
+            entry.target.classList.remove("show");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    const elements = sectionRef.current.querySelectorAll(".fade-in");
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+
+    return () => {
+      if (sectionRef.current) {
+        const elements = sectionRef.current.querySelectorAll(".fade-in");
+        elements.forEach((element) => {
+          observer.unobserve(element);
+        });
+      }
+    };
+  }, []);
+
   return (
-    <div className="section-token">
-      <div className="content token-c">
+    <div className="section-token" ref={sectionRef}>
+      <div className="content token-c fade-in">
         <div className="center-block">
           <h2>ABOUT US</h2>
         </div>
-        <div className="token-wr">
+        <div className="token-wr fade-in">
           <div className="token-row">
-            <div className="token-left">
+            <div className="token-left fade-in">
               <img src={collage1} alt="PEP$MOKE" />
               <h4 className="piechart-heading">
-                I’m up in all the stores<br></br> When it rains it pours
+                I’m up in all the stores
+                <br /> When it rains it pours
               </h4>
             </div>
-            <div className="token-right">
+            <div className="token-right fade-in">
               <div className="token-box">
                 <div className="token-inner">
                   <h4>
@@ -40,9 +73,9 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="token-wr">
+        <div className="token-wr fade-in">
           <div className="token-row">
-            <div className="token-right">
+            <div className="token-right fade-in">
               <div className="token-box">
                 <div className="token-inner">
                   <h4>
@@ -60,7 +93,7 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div className="token-left">
+            <div className="token-left fade-in">
               <img src={collage2} alt="PEP$MOKE" />
               <h4 className="piechart-heading">
                 Living life fast, can't hit the breaks
@@ -68,15 +101,15 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="token-wr">
+        <div className="token-wr fade-in">
           <div className="token-row">
-            <div className="token-left">
+            <div className="token-left fade-in">
               <img src={collage3} alt="PEP$MOKE" />
               <h4 className="piechart-heading">
                 You're the missing piece I've been searching for
               </h4>
             </div>
-            <div className="token-right">
+            <div className="token-right fade-in">
               <div className="token-box">
                 <div className="token-inner">
                   <h4>
@@ -96,9 +129,9 @@ function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="token-wr">
+        <div className="token-wr fade-in">
           <div className="token-row">
-            <div className="token-right">
+            <div className="token-right fade-in">
               <div className="token-box">
                 <div className="token-inner">
                   <h4>
@@ -115,10 +148,11 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div className="token-left">
+            <div className="token-left fade-in">
               <img src={collage4} alt="PEP$MOKE" />
               <h4 className="piechart-heading">
-                You and me, we're a perfect match<br></br> like a lock and key
+                You and me, we're a perfect match
+                <br /> like a lock and key
               </h4>
             </div>
           </div>

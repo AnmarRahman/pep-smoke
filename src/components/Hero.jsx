@@ -1,7 +1,7 @@
 import React from "react";
-import musicnotes from "../assets/images/music-notes.svg";
 import coinstack from "../assets/images/pep-smoke-coin-stack.svg";
 import pepsmoke from "../assets/images/pep-smoke-pic.svg";
+import vinyl from "../assets/images/vinyl.svg";
 
 function Hero() {
   return (
@@ -25,7 +25,7 @@ function Hero() {
           <img src={pepsmoke} className="hero-pep-smoke" alt="" />
         </div>
         <div className="splash-two">
-          <img src={musicnotes} alt="" />
+          <img src={vinyl} alt="" />
         </div>
       </div>
     </div>
