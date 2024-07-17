@@ -106,7 +106,20 @@ function App() {
 
   useEffect(() => {
     if (fontsLoaded && imagesLoaded) {
-      setIsLoading(false);
+      const minLoadingTime = 3000; // Minimum loading time of 3 seconds
+      const startTime = Date.now();
+
+      const checkLoadingTime = () => {
+        const currentTime = Date.now();
+        const elapsedTime = currentTime - startTime;
+        if (elapsedTime >= minLoadingTime) {
+          setIsLoading(false);
+        } else {
+          setTimeout(checkLoadingTime, minLoadingTime - elapsedTime);
+        }
+      };
+
+      checkLoadingTime();
     }
   }, [fontsLoaded, imagesLoaded]);
 
