@@ -35,5 +35,7 @@ To get started with the PepSmoke project, follow these steps:
 5. Open your browser and go to http://localhost:3000 to view the website.
 
 Technologies Used
-React.js: A JavaScript library for building user interfaces.
-Tailwind CSS: A utility-first CSS framework for designing custom user interfaces.
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for designing custom user interfaces.
+
