@@ -106,7 +106,7 @@ function App() {
 
   useEffect(() => {
     if (fontsLoaded && imagesLoaded) {
-      const minLoadingTime = 3000; // Minimum loading time of 3 seconds
+      const minLoadingTime = 1000; // Minimum loading time of 3 seconds
       const startTime = Date.now();
 
       const checkLoadingTime = () => {
